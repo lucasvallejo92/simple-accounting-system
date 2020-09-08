@@ -4,5 +4,6 @@ export interface ITransactionBody {
     id: string,
     type: string,
     amount: number,
-    effectiveDate: string
+    effectiveDate: string,
+    balance: number,
 }
